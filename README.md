@@ -19,4 +19,5 @@ If you look into Acceleration folder which is an app for getting 6D pose.
 * In accelerometer app I used simple math for getting distance travelled by device from accelerometer.
 * The main challenge was creating an app which will be using LiDAR and generating point clouds.
 * These are some important files in the Point Cloud App:
-    * 
+    * Maincontroller: This file creates the User Interface and calls a session which creates ARSession from the scene.
+    * Renderer: Renderer file as it's name suggests creates a AR world (Point Cloud) with populated point 
