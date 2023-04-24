@@ -31,7 +31,7 @@ If you look into Acceleration folder which is an app for getting 6D pose.
 * These are some important files in the Point Cloud App:
     * Maincontroller: This file creates the User Interface and calls a session which creates ARSession from the scene.
     * Renderer: Renderer file as it's name suggests creates a AR world (Point Cloud) with populated points. In this file you can
-    control the number of points that you want in your AR world. There is a limit for doing so which is 15,000,000 (I have set it to highest).
+    control the number of points that you want in your AR world. There is a limit for doing so which is **15,000,000** (I have set it to highest).
 * Let's talk about the APIs:
     * Metal is an alternative for OpenGL. This is specifically designed for Apple hardware so that all the computational power is used.
     * ARKit is a framework which enables creation of Augmented Reality.
