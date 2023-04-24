@@ -15,4 +15,8 @@ how LiDARs work.
 6D pose of the iphone.
 * This requires accessing accelerometer and gyroscope data of iphone. The data that we get is raw data which needs to be processed.
 If you look into Acceleration folder which is an app for getting 6D pose.
-* I used the APIs 
+* I used the APIs like Metal, ARKit, Scenekit, and CoreMotion.
+* In accelerometer app I used simple math for getting distance travelled by device from accelerometer.
+* The main challenge was creating an app which will be using LiDAR and generating point clouds.
+* These are some important files in the Point Cloud App:
+    * 
