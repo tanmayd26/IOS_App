@@ -17,6 +17,10 @@ smart cane which uses T265+D455 camera setup for creating a vision for blind peo
     * https://arxiv.org/pdf/2212.04745.pdf: This is a survey paper for SLAM.
     * https://doi.org/10.1016/j.ifacol.2021.10.472 "Mobile robot localization and navigation using LIDAR and indoor GPS"
     This paper talks about using LiDAR to scan environment and create a local map for robot. Indoor GPS helps for motion planning. 
+    * https://doi.org/10.1109/2.30720 "Using occupancy grids for mobile robot perception and navigation"
+    This paper presents efficient path planning using the occupancy grid using sensors like LiDAR, camera and A* a motion planning algorithm.
+
+
 
 # Work and Experience:
 * I started with learning about LiDAR as it was my first time working so extensively with it. I read papers which talked about 
