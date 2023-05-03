@@ -41,3 +41,4 @@ If you look into Acceleration folder which is an app for getting 6D pose.
     * CoreMotion is pretty straight forward API.
     * Always make sure that you start the updates for the sensor that you are using. 
     * The user distance travelled is not a direct output of the sensor. For getting the distance we have to process the data.
+    
