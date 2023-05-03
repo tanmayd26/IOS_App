@@ -15,7 +15,8 @@ smart cane which uses T265+D455 camera setup for creating a vision for blind peo
     * https://developer.apple.com/documentation/arkit/
 * Papers: 
     * https://arxiv.org/pdf/2212.04745.pdf: This is a survey paper for SLAM.
-    * 
+    * https://doi.org/10.1016/j.ifacol.2021.10.472 "Mobile robot localization and navigation using LIDAR and indoor GPS"
+    This paper talks about using LiDAR to scan environment and create a local map for robot. Indoor GPS helps for motion planning. 
 
 # Work and Experience:
 * I started with learning about LiDAR as it was my first time working so extensively with it. I read papers which talked about 
@@ -41,4 +42,33 @@ If you look into Acceleration folder which is an app for getting 6D pose.
     * CoreMotion is pretty straight forward API.
     * Always make sure that you start the updates for the sensor that you are using. 
     * The user distance travelled is not a direct output of the sensor. For getting the distance we have to process the data.
-    
+* SLAM (Simultaneous Localization and Mapping):
+    * SLAM is used to create a map of an unknown environment and keep track of a robot's location within that environment at the same time.
+    * It is a complex task that involves combining data from various sensors such as cameras, LIDAR, and GPS.
+    * The process of SLAM typically involves several steps, including feature extraction, data association, state estimation, and map update
+    * Feature extraction involves identifying and tracking features in the environment, such as edges and corners.
+    * Data association involves matching the features observed in the current frame to those in the previous frames.
+    * State estimation involves using the data from sensors to estimate the robot's current position and orientation.
+    * Map update involves incorporating new observations into the existing map to improve its accuracy.
+    * There are two main types of SLAM: EKF-SLAM (Extended Kalman Filter SLAM) and Graph-Based SLAM.
+    * EKF-SLAM is a recursive algorithm that estimates the robot's position and orientation while building a map of the environment
+    * Graph-Based SLAM uses a graph to represent the environment and the robot's movements, and estimates the robot's trajectory and the locations of landmarks simultaneously.
+
+* Simple PC and 6D Pose:
+    * As in accelerometer app we are using data from the sensors like accelerometer, gyroscope to get 6D pose.
+    * This app uses ARKit which gives 6D pose of the iPhone.
+    * Also this app gives points in point cloud using mesh classification which is an shape estimation of surrounding by swift.
+
+# Blockers:
+* I faced lot of blockers during this Independent Study.
+* First being new to ios development, finding reliable documentation and understanding APIs was challenging.
+* This was my first time working with SLAM, but fortunately I had Shivendra who helped me to understand it in simple way.
+* The changing platform of xcode: There were lot of mismatches between the version of IDE and coding language which happened when Apple used to introduce newer versions. This took weeks in straight to get resolved.
+
+# Tips for future students:
+* I would recommend students to join CAIRO as the lab culture is very welcoming and Dr. Hayes is very helpful.
+* Just be ready to explore and learn different things.
+* If you face challenges commuincate those to your supervisor.
+
+
+
